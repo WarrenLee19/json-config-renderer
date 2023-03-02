@@ -1,0 +1,101 @@
+.cf-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.cf-form-ac-btn {
+  margin-left: 20px;
+}
+
+.cf-form-label {
+  max-width: 48px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cf-Form-item {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.cf-Form--column {
+  display: inline-block;
+}
+
+.cf-Form--column-1 {
+  width: 100%
+}
+
+.cf-Form--column-2 {
+  width: 50%
+}
+
+.cf-Form--column-3 {
+  width: 33.333%
+}
+
+.cf-Form--column-4 {
+  width: 25%
+}
+
+.cf-Form--column-5 {
+  width: 20%
+}
+
+.cf-Form--column-6 {
+  width: 16.66666%
+}
+
+.cf-Form--column-7 {
+  width: 14.285714%
+}
+
+.cf-Form--column-8 {
+  width: 12.5%
+}
+
+.cf-Form-column-9 {
+  width: 11.111111%
+}
+
+.cf-Form-column-10 {
+  width: 10%
+}
+
+
+.belle-rate {
+  font-size: 15px;
+}
+
+/*.belle-form-item-label {
+  width: 80px;
+}*/
+
+.unsupported-form-item {
+  display: flex;
+  line-height: 30px;
+}
+
+.cf-form-footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+}
+
+.cf-form-actions {
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 -2px 5px rgb(0 0 0 / 8%);
+  padding-left: 40px;
+}

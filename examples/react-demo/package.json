@@ -1,0 +1,43 @@
+{
+  "name": "clouad-flow-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "apusic-ui": "^1.0.19",
+    "axios": "^0.26.0",
+    "classnames": "^2.3.1",
+    "lodash": "^4.17.21",
+    "nanoid": "^3.3.2",
+    "qs": "^6.10.3",
+    "react": "file:../../node_modules/react",
+    "react-dom": "file:../../node_modules/react-dom",
+    "react-router-dom": "file:../../node_modules/react-router-dom",
+    "cloud-flow": "file:../../"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.0",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.2",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.7.4",
+    "web-vitals": "^2.1.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

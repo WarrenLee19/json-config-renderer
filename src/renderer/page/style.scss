@@ -1,0 +1,70 @@
+.cf-page-container {
+    font-size: 12px;
+    position: relative;
+    height: 100%;
+    overflow: auto;
+    transform: initial;
+}
+
+.cf-page-header {
+    background: #fff;
+    height: auto;
+    font-size: 14px;
+}
+
+
+.header-title {
+    color: #333;
+    /*height: 52px;*/
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 15px 16px 10px;
+    font-size: 16px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 550;
+    line-height: 22px;
+}
+
+.header-breadcrumb {
+    width: 100%;
+    overflow: auto;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    height: 36px;
+    line-height: 36px;
+    background-color: #fcfcfc;
+    padding: 0 16px;
+    align-items: center;
+    font-size: 12px;
+    /*box-shadow: 0 1px 0 0 #DEE3ED;*/
+    color: #333;
+}
+
+.header-breadcrumb >img {
+    margin-right: 10px;
+}
+
+.header-BulkActions{
+    /*height: 50px;*/
+    padding: 0 16px 12px;
+}
+
+.page-header-logo {
+    width: 13px;
+}
+.cf-page-site-layout{
+    padding: 16px;
+}
+.cf-page-body {
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 2px;
+}
+[class*=belle-layout-sider-dark]{
+  border-right: 1px solid #f2f2f2 !important;
+}
+[class*=belle-modal-confirm-content]{
+      width: calc(100vw - 32px) !important;
+  }

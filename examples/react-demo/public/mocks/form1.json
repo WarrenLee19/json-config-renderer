@@ -1,0 +1,8 @@
+{
+  "serviceName": "测试服务",
+  "app": "测试应用1",
+  "protocol": "HTTPS",
+  "version": "测试版本1",
+  "address": "http://demo.com",
+  "managePort": "80"
+}

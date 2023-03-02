@@ -1,0 +1,22 @@
+.cf-descriptions-header {
+  background: #F8F9FA;
+  line-height: 34px;
+  height: 32px;
+  padding-left: 12px;
+  color:#333;
+  font-weight:600;
+
+}
+.cf-descriptions-header:before{
+  width: 3px;
+  height: 15px;
+  background: #4578F8;
+  position: relative;
+  top: 3px;
+  left: -11px;
+  content: '';
+  display: inline-block;
+}
+.belle-descriptions-item-label:after{
+  content:'：'
+}

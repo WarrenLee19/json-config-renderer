@@ -1,0 +1,30 @@
+.cf-container {
+  //background: #f9f9f9;
+  //line-height: 34px;
+  //height: 34px;
+  //border-left: 5px solid #4578f8;
+  //margin-bottom: 16px;
+  //padding-left: 8px;
+}
+
+.cf-container-actions{
+  padding: 0 16px 12px;
+  //display: flex;
+}
+//.cf-pagination{
+//  margin: 16px 0;
+//}
+
+.cf-container-actions {
+  display: flex;
+}
+
+.cf-container-actions-bottomRight,.cf-container-actions-topRight {
+  justify-content: flex-end;
+}
+.cf-container-actions-bottomLeft,.cf-container-actions-topLeft {
+  justify-content: flex-start;
+}
+.cf-container-actions-topCenter,.cf-container-actions-bottomCenter {
+  justify-content: center;
+}

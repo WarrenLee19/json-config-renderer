@@ -1,0 +1,29 @@
+.masLayout {
+  height: calc(100% - 50px);
+  color: #4578F8;
+}
+
+.cf-sider {
+  box-shadow: 0 2px 8px 0 #e2e2e2;
+  border-right: 1px solid #f5f5f5;
+}
+/**
+sider 顶栏操作
+ */
+.cf-sider-action {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 24px 24px;
+  box-sizing: border-box;
+
+  .sider-top-btn {
+    width: 100%;
+    box-sizing: border-box;
+    height: 40px;
+    font-size: 18px;
+  }
+}
+[class*=belle-menu-inline]{
+  border-right: none !important;
+}

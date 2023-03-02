@@ -1,0 +1,26 @@
+# Files
+.DS_Store
+.ruby-version
+test.sass
+npm-debug.log
+yarn.lock
+package-lock.json
+schema.json
+
+# Folders
+.idea/
+/.vscode
+.sass-cache
+gh_pages
+_site
+node_modules
+/dist
+/lib
+/sdk
+/public
+/gh-pages
+/output
+/coverage
+
+# tmp
+scripts/doc_site/tmp

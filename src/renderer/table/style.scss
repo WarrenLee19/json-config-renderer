@@ -1,0 +1,26 @@
+.cf-table-header {
+  background: #f9f9f9;
+  line-height: 34px;
+  height: 34px;
+  border-left: 5px solid #4578f8;
+  margin-bottom: 16px;
+  padding-left: 8px;
+}
+
+.cf-pagination{
+  margin: 16px 0;
+}
+
+.cf-table-pagination {
+  display: flex;
+}
+
+.cf-pagination-bottomRight,.cf-pagination-topRight {
+  justify-content: flex-end;
+}
+.cf-pagination-bottomLeft,.cf-pagination-topLeft {
+  justify-content: flex-start;
+}
+.cf-pagination-topCenter,.cf-pagination-bottomCenter {
+  justify-content: center;
+}

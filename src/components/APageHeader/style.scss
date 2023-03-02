@@ -1,0 +1,23 @@
+.apusic-page-header {
+  min-width: 1020px;
+  padding: 12px 16px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.05);
+
+  .page-header-first-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .page-header-title {
+      color: #333;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 28px;
+    }
+  }
+
+  .page-header-second-line {
+    margin-top: 16px;
+  }
+}

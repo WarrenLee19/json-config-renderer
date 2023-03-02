@@ -1,0 +1,120 @@
+.login-page{
+  background: #FAFBFF;
+  min-height: 100vh;
+  min-width: 1200px;
+  position: relative;
+  overflow: auto;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.login-title{
+  position: absolute;
+  top:50px;
+  left:5%; 
+}
+.login-title-text {
+  display: inline-block;
+  margin-left: 32px;
+  font-size: 18px;
+  /* line-height: 30px; */
+  font-weight: 600;
+  color: #4578F8;
+  vertical-align: bottom;
+}
+.copy-right{
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  width: 100%;
+  color: #C8C8C8;
+  font-size: 12px;
+}
+.login-box{
+  padding-top:6%;
+  width: 1152px;
+  height: 672px;
+  min-width: 872.7px;
+  min-height: 509.1px;
+}
+/* .login-box img{
+  width: 100%;
+} */
+.logo-title{
+  color:#4578F8;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  /* margin-top: 72px; */
+  margin-top: 10.67%;
+}
+.user-info-box{
+  /* padding-left: 144px; */
+  background-color: #ffffff;
+  margin-left: 137px;
+  /* margin-top: 8.9%; */
+  padding:60px;
+  box-shadow: 0 10px 20px 0 #E7E9F3;
+}
+.user-info-title{
+  color: #333333;
+  font-size: 18px;
+  font-weight: 600;
+  /* margin-top: 60px; */
+  margin-bottom: 19.2px;
+}
+.user-info-box .belle-form{
+  /* width: 360px; */
+  /* width: 80%; */
+  /* min-width:272.7px; */
+}
+.user-info-box .belle-form button{
+  width: 100%;
+  margin-top: 24px;
+}
+.user-info-box .belle-form .belle-input-prefix{
+  color: #999999;
+  margin-right: 6px;
+}
+.iam-login-tips{
+  float: right;
+  color: #999999;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.iam-user-info-box{
+  -webkit-animation:fadeInRight 500ms 1;
+}
+.user-info-box-usually{
+  -webkit-animation:fadeOutRight 500ms 1;
+}
+@keyframes fadeInRight {
+  0% {
+    transform: translateX(100px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes fadeOutRight {
+  0% {
+    transform: translateX(-100px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+@media screen and (max-width: 1440px) {
+  .login-box{
+    width: 1024px;
+    height: 560px;
+  }
+}
+@media screen and (max-width: 1360px) {
+  .login-box{
+    width: 960px;
+    height: 509.1px;
+  }
+}
