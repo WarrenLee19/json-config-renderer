@@ -1,0 +1,27 @@
+.belle-layout {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.site-layout-content {
+  padding: 24px 8px;
+  min-height: calc(100vh - 64px - 66px - 8px);
+  background-color: #fff;
+}
+
+.layout .logo {
+  height: 100%;
+  display: inline-flex;
+  font-size: 20px;
+  align-content: center;
+  float: left;
+}
+
+.header-menu {
+  margin-left: 20px;
+  padding: 0 60px;
+}
+
+.logo {
+  cursor: pointer;
+}
